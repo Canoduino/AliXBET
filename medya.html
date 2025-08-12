@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medya</title>
+</head>
+<style>
+    .anasayfabutton{
+    color:white; border:1px white solid;border-radius: 6px; width: 80px;height: 50px;background-color: purple; transition: all .5s;
+}   
+.anasayfabutton:hover{
+    color:white; border:1px white solid;border-radius: 6px; width: 80px;height: 50px;background-color: red; transition: all .5s;
+}
+</style>
+<body style="background-color: black;">
+    <header style="background-color: purple;width: 600px; position:fixed;top:20px;left:400px;z-index: 5;">
+        <nav style="display:flex;align-items: center; column-gap:20px;justify-content: space-around;border:2px solid white; border-radius: 6px;">
+            <div>
+        <a href="anasayfa.html"><button class="anasayfabutton">Anasayfa</button></a>
+            </div>
+            <h1 style="font-weight:bolder;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: red;font-size: 30px;">ALİXBET</h1>
+       </nav>
+    </header>
+    <section style="position: relative;top: 300px;left: 450px;width:400px ;">
+        <nav style="background-color: purple;border: 1px white;border-radius:6px ; width: 400px; padding:15px 15px;position: relative;">
+            <div style="display:flex;column-gap: 0px;justify-content: space-around;">
+                <div>
+                <img src="data:image/jpeg;base64,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" alt="youtube" style="width: 50px;height: 50px; border-radius: 6px;">
+                </div>
+                <div>
+                <a href="https://www.youtube.com/@ALIXBETORJINAL"><button class="anasayfabutton"><p>Youtube Kanalı</p></button></a>
+                </div>
+            </div>
+            <br>
+            <div style="display:flex;column-gap: 10px;justify-content: space-around;">
+                <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3BjUe4RsX3j1f-TaLnIsiOPM5NYvemB3BbA&s" alt="youtube" style="width: 50px;height: 50px; border-radius: 6px;">
+                </div>
+                <div>
+                <a href=""><button class="anasayfabutton"><p>Instagram</p></button></a>
+                </div>
+            </div>
+            <br>
+            <div style="display:flex;column-gap: 10px;justify-content: space-around;">
+                <div>
+                <img src="data:image/png;base64,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" alt="youtube" style="width: 50px;height: 50px; border-radius: 6px;">
+                </div>
+                <div>
+                <a href=""><button class="anasayfabutton"><p>Twitter</p></button></a>
+                </div>
+            </div>
+            
+            
+        </nav>
+    </section>
+    <div style="background-color: purple;padding:100px 200px;position: relative;top:400px;">
+        <p style="color:white; font-family: Arial, Helvetica, sans-serif;background-color: red;border: 1px solid white; border-radius: 6px;">Bu site  Bay Mert Mustafa Görmüş ve Bay Çağan Şen tarafından yapılmıştır. Telif hakları saklıdır.</p>
+    </div>
+</body>
+</html>
